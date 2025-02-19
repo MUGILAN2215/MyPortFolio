@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Mugilan S - Portfolio</title>
+    <link rel="stylesheet" href="pp.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo" style="color: white;">My Portfolio</div>
+        <ul class="ff">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero container" style="background-color: black;" >
+        <div class="hero-content ff">
+            <p style="font-size: 2rem;">Hi There! I'm</p>
+            <h1 style="font-size: 5rem;">Mugilan S</h1>
+            <h1>Java Developer</h1>
+            <p class="fff" style="font-size: 1.2rem;">Passionate Java developer crafting innovative software solutions.</p>
+            <br>
+            <a href="https://drive.google.com/file/d/1AC8vYGmTrMXRBYknUv6c-IJYvfbh4aBh/view?usp=drivesdk " target="_blank">
+                <button>Download CV</button>
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="anime_portfilo.png" alt="Mugilan S">
+        </div>
+    </section>
+    <section id="skills" class="container ff">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Spring Boot</h3>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>MySQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title ff">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+               <a href="https://github.com/MUGILAN2215/Interviewer-AI.git" target="_blank"><img src="interviewer.jpg" alt="Interviewer AI"></a> 
+                <div class="project-card-content">
+                    <h3 class="lorab">Interviewer AI</h3>
+                    <p>Interviewer AI stands out by utilizing cutting-edge Al techniques to create realistic interview scenarios, ensuring a comprehensive and effective preparation experience</p>
+                </div>
+            </div>
+            <div class="project-card">
+              <a href="https://github.com/MUGILAN2215/GameManager.git" target="_blank"> <img src="game-port.jpg" alt="Game Management System"></a>  
+                <div class="project-card-content">
+                    <h3 class="lorab">Game Management System</h3>
+                    <p>The Game Management System features a modular design for seamless game integration, built with Core Java, Swing, and JDBC for an interactive experience and efficient data management.</p>
+                </div>
+            </div>
+            <div class="project-card">
+             <a href="https://github.com/MUGILAN2215/Medical_ChatBot.git" target="_blank"><img src="medical_chatbot.jpg" alt="Medical_chatbot"></a>   
+                <div class="project-card-content">
+                    <h3 class="lorab" >Medical Chatbot</h3>
+                    <p>The AI-powered Medical Chatbot provides instant health insights and guidance, ensuring quick, reliable, and interactive responses for users. Built with intelligent NLP and database integration, it enhances accessibility and efficiency in healthcare support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container ">
+        <h2 class="section-title ff">Contact Me</h2>
+        <form class="contact-form" action="submit-form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mugilans09?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon">LinkedIn</a>
+            <a href="https://github.com/MUGILAN2215" target="_blank" class="social-icon">GitHub</a>
+            <a href="https://www.instagram.com/priceless_king09?igsh=MTMzOTFmNDU2N2c4ag==" target="_blank" class="social-icon">Instagram</a>
+        </div>
+        <p>&copy; 2025 Mugilan S. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
